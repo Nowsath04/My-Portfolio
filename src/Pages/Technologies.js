@@ -37,10 +37,10 @@ function Technologies() {
         <img src={react} title="React" alt="" />
         <img src={redux} title="Redux" alt="" />
         <img src={bootstrap} title="Bootstrap" alt="" />
-        <img src={nodejs} title="Bootstrap" alt="" />
-        <img src={mysql} title="Bootstrap" alt="" />
-        <img src={mongodb} title="Bootstrap" alt="" />
-        <img src={ExpressJS} title="Bootstrap" alt="" />
+        <img src={nodejs} title="NodeJs" alt="" />
+        <img src={mysql} title="MySql" alt="" />
+        <img src={mongodb} title="MongoDb" alt="" />
+        <img src={ExpressJS} title="ExpressJS" alt="" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
