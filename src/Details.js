@@ -46,7 +46,7 @@ export const socialMediaUrl = {
 
 export const eduDetails = [
   {
-    Position: "Full Stack Developer (MERN)",
+    Position: "Full Stack Developer",
     Company: "Guvi Geeks IIT Research Park",
     Location: "Chennai",
     Duration: "2022",

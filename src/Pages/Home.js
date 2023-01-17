@@ -78,7 +78,7 @@ function Home() {
         >
          <p className="block z-0 lg:inline">
                 <Typewriter
-                  words={["Full Stack Developer","MERN Developer"]}
+                  words={["Full Stack Developer"]}
                   loop
                   cursor
                   cursorStyle="|"
