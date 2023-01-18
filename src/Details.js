@@ -20,7 +20,7 @@ import ExpressJS from "./assets/techstack/ExpressJS.png";
 // Porject Images
 import projectImage1 from "./assets/projects/whatsapp-clone.JPG";
 import projectImage2 from "./assets/projects/student.JPG";
-import projectImage3 from "./assets/projects/pizza.JPG";
+import projectImage3 from "./assets/projects/pizza2.JPG";
 
 
 
@@ -119,7 +119,7 @@ export const projectDetails = [
     techstack: "MERN",
     frontend: "https://github.com/Nowsath04/Pizza-Frontend",
     backend: "https://github.com/Nowsath04/Pizza-Backend",
-    DeployUrl: "https://shimmering-blancmange-07668d.netlify.app",
+    DeployUrl: "https://shimmering-blancmange-07668d.netlify.app/Home",
   },
   
   
