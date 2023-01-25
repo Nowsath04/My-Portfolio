@@ -119,7 +119,7 @@ export const projectDetails = [
     techstack: "MERN",
     frontend: "https://github.com/Nowsath04/Pizza-Frontend",
     backend: "https://github.com/Nowsath04/Pizza-Backend",
-    DeployUrl: "https://shimmering-blancmange-07668d.netlify.app/Home",
+    DeployUrl: "https://shimmering-blancmange-07668d.netlify.app/home",
   },
   
   
