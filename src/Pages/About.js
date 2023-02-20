@@ -9,10 +9,16 @@ function About() {
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           About Me
         </h1>
-        <p className="text-content py-8 lg:max-w-3xl">{personalDetails.about}</p>
-        <a className="Nowsath"
-        href="https://drive.google.com/file/d/1f6wrfabVirM0l2OBs1xUV3zODCavjXNH/view" target="_blank"
-        >Resume</a>
+        <p className="text-content py-8 lg:max-w-3xl">
+          {personalDetails.about}
+        </p>
+        <a
+          className="Nowsath"
+          href="https://drive.google.com/file/d/1hECeZQoWGXBfYab6yuyKsSyBWMufKprL/view?usp=share_link"
+          target="_blank"
+        >
+          Resume
+        </a>
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">

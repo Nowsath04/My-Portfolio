@@ -26,8 +26,8 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.Nowsath{
-  background-color:black;
+.Nowsath {
+  background-color: black;
   border-radius: 15px;
   color: white;
   padding: 15px 32px;
@@ -37,33 +37,31 @@ body::-webkit-scrollbar {
   font-size: 16px;
 }
 
-.Nowsath:hover{
-  background-color:wheat;
-  color:black;
+.Nowsath:hover {
+  background-color: wheat;
+  color: black;
 }
 
-.deploy{
-
-  background-color:black;
-  border-radius:10px;
+.deploy {
+  background-color: black;
+  border-radius: 10px;
   color: white;
-  padding:10px 10px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size:14px;
-
+  font-size: 14px;
 }
 
-.deploy:hover{
-  background-color:wheat;
-  color:black;
+.deploy:hover {
+  background-color: wheat;
+  color: black;
 }
 
-.fonticon{
-  color:black;
-  font-size:30px;
+.fonticon {
+  color: black;
+  font-size: 30px;
 }
-.fonticon :hover{
-color:wheat;
+.fonticon :hover {
+  color: wheat;
 }

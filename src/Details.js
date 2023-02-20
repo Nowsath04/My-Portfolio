@@ -1,4 +1,3 @@
-
 // Profile Image
 import profile from "./assets/1725265.png";
 // Tech stack images
@@ -18,11 +17,10 @@ import postman from "./assets/techstack/postman.png";
 import mysql from "./assets/techstack/mysql.png";
 import ExpressJS from "./assets/techstack/ExpressJS.png";
 // Porject Images
-import projectImage1 from "./assets/projects/whatsapp-clone.JPG";
+import projectImage1 from "./assets/projects/chat.JPG";
 import projectImage2 from "./assets/projects/student.JPG";
 import projectImage3 from "./assets/projects/pizza2.JPG";
-
-
+import projectImage4 from "./assets/projects/place to stay.JPG";
 
 // Enter your Personal Details here
 export const personalDetails = {
@@ -86,43 +84,51 @@ export const techStackDetails = {
   npm: npm,
   git: git,
   github: github,
-  ExpressJS:ExpressJS,
-  nodejs:nodejs
-
+  ExpressJS: ExpressJS,
+  nodejs: nodejs,
 };
 
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Whatsapp-Clone",
-    image: projectImage1,
-    description: `Whatsapp-clone app allows you to communicate with your buddies through chat. It enables you to send and receive messages. Whatsapp-clone apps make 
-    it easier, simpler and faster to connect with everyone and it is also easy to use.`,
+    title: "Pizza King App ( ADMIN )",
+    image: projectImage3,
+    description: `Visit Pizza King for a tasty pizza delivery or takeaway near me. Order online today for a piping hot pizza delivered directly to your door.`,
     techstack: "MERN",
-    frontend: "https://github.com/Nowsath04/Whatsapp-clone-frondend",
-    backend: "https://github.com/Nowsath04/Whatsapp-clone-backend",
-    DeployUrl: "https://deft-smakager-85a14b.netlify.app",
-  },  {
+    frontend: "https://github.com/Nowsath04/PIZZA-KING-FRONTEND",
+    backend: "https://github.com/Nowsath04/PIZZA-KING-BACKEND",
+    DeployUrl: "https://shimmering-blancmange-07668d.netlify.app/Home",
+  },
+  {
+    title: "Place To Stay",
+    image: projectImage4,
+    description: `Place-To-Stay is an application where user can find free or nominal fee room for enjoying their stay in their tours.`,
+    techstack: "MERN",
+    frontend: "https://github.com/Nowsath04/PLACE-TO-STAY-FRONTEND",
+    backend: "https://github.com/Nowsath04/PLACE-TO-STAY-BACKEND",
+    DeployUrl: "https://visionary-klepon-03bb7b.netlify.app",
+  },
+  {
+    title: "Chat With Me",
+    image: projectImage1,
+    description: `Chat With Me app allows you to communicate with your buddies through chat. 
+    It enables you to send and receive messages. Chat With Me apps make it easier, simpler and faster to connect with everyone and it is also easy to use.`,
+    techstack: "MERN",
+    frontend: "https://github.com/Nowsath04/CHAT-WITH-ME-FRONTEND",
+    backend: "https://github.com/Nowsath04/CHAT-WITH-ME-BACKEND",
+    DeployUrl: "https://grand-frangollo-b34394.netlify.app",
+  },
+  {
     title: "Zen Class Student Portal",
     image: projectImage2,
     description: `Zen Class Student Portal is an e-Learning application where registered
      students can attend classes, avail courses and monitor their tasks & courses status.`,
     techstack: "MERN",
-    frontend: "https://github.com/Nowsath04/Zen-frontend",
-    backend: "https://github.com/Nowsath04/zen-backend.git",
+    frontend:
+      "https://github.com/Nowsath04/ZENCLASS-STUDENT-DASHBOARD-FRONTEND",
+    backend: "https://github.com/Nowsath04/ZENCLASS-STUDENT-DASHBOARD-BACKEND",
     DeployUrl: "https://profound-capybara-7abab5.netlify.app",
-  },  {
-    title: "Pizza Delivery App",
-    image: projectImage3,
-    description: `This is a Full Stack (MERN) Pizza Delivery Application with admin panel developed using React and React for Front End , Redux-Thunk for Asynchronous operations,
-     Node JS for Runtime environment , Express JS for Backend Routing and Mongo DB for Database`,
-    techstack: "MERN",
-    frontend: "https://github.com/Nowsath04/Pizza-Frontend",
-    backend: "https://github.com/Nowsath04/Pizza-Backend",
-    DeployUrl: "https://shimmering-blancmange-07668d.netlify.app/Home",
   },
-  
-  
 ];
 
 // Enter your Contact Details here
