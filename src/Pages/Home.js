@@ -62,35 +62,41 @@ function Home() {
       <div>
         <h1
           ref={h11}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-2xl text-dark-heading dark:text-light-heading md:text-3xl xl:text-4xl xl:leading-tight font-bold"
         >
           Hi,👋<br></br>My Name is<br></br>
         </h1>
         <h1
           ref={h12}
-          className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-2xl bg-clip-text bg-gradient text-transparent md:text-3xl xl:text-4xl xl:leading-tight font-bold"
         >
           {name}
         </h1>
         <h2
           ref={h13}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-4xl xl:leading-tight font-bold"
+          className="text-2xl text-dark-heading dark:text-light-heading md:text-3xl xl:text-4xl xl:leading-tight font-bold"
         >
-         <p className="block z-0 lg:inline">
-                <Typewriter
-                  words={["Full Stack Developer"]}
-                  loop
-                  cursor
-                  cursorStyle="|"
-                  typeSpeed={100}
-                  deleteSpeed={100}
-                  delaySpeed={1000}
-                />
-              </p>
+          <p className="block z-0 lg:inline">
+            <Typewriter
+              words={["Full Stack Developer"]}
+              loop
+              cursor
+              cursorStyle="|"
+              typeSpeed={100}
+              deleteSpeed={100}
+              delaySpeed={1000}
+            />
+          </p>
         </h2>
       </div>
       <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Nowsath A" />
+        <img
+          ref={myimageref}
+          className="w-1/1 md:ml-auto"
+          style={{}}
+          src={img}
+          alt="Nowsath A"
+        />
       </div>
     </main>
   );

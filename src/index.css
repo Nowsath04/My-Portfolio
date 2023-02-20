@@ -12,9 +12,6 @@
 .text-gradient {
   @apply bg-clip-text bg-gradient text-transparent;
 }
-.section {
-  @apply pt-28 xl:pt-28 2xl:pt-44;
-}
 .text-content {
   @apply dark:text-light-content text-dark-content;
 }

@@ -1,5 +1,5 @@
 // Profile Image
-import profile from "./assets/1725265.png";
+import profile from "./assets/o2-o2bubl.gif";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";

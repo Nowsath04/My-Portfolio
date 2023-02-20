@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { socialMediaUrl } from "../Details";
-import { FaInstagramSquare,FaLinkedin,FaGithub} from 'react-icons/fa';
+import { FaInstagramSquare, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +14,9 @@ function Header() {
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
-          <h3 className="text-2xl bg-clip-text bg-gradient text-transparent md:text-2xl xl:text-4xl xl:leading-tight font-bold">NOWSATH A</h3>
+          <h3 className="text-2xl bg-clip-text bg-gradient text-transparent md:text-2xl xl:text-4xl xl:leading-tight font-bold">
+            NOWSATH A
+          </h3>
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
@@ -34,7 +36,11 @@ function Header() {
           </svg>
         </div>
       </div>
-      <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
+      <nav
+        className={` ${
+          !isOpen ? "hidden" : null
+        } text-center md:flex justify-between`}
+      >
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
             <NavLink to="/" onClick={toggleClass}>
@@ -65,17 +71,17 @@ function Header() {
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           <li>
             <a href={instagram} target="_blank" rel="noreferrer noopener">
-            <FaInstagramSquare className="fonticon"/>
+              <FaInstagramSquare className="fonticon" />
             </a>
           </li>
           <li>
             <a href={linkdein} target="_blank" rel="noreferrer noopener">
-              <FaLinkedin  className="fonticon"/>
+              <FaLinkedin className="fonticon" />
             </a>
           </li>
           <li>
             <a href={github} target="_blank" rel="noreferrer noopener">
-              <FaGithub  className="fonticon" />
+              <FaGithub className="fonticon" />
             </a>
           </li>
         </ul>
