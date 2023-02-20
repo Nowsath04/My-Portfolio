@@ -12,16 +12,19 @@ function Projects() {
         <br />
         <div className="text-2xl text-dark-heading dark:text-light-heading md:text-1xl xl:text-2xl xl:leading-tight font-bold">
           <h2>
-            Credentials :-{" "}
+            Credentials :- <br />
             <span
               style={{
                 fontSize: "20px",
                 fontFamily: "'Times New Roman', Times, serif",
+                paddingLeft: "150px",
               }}
             >
               USER : mydemo@gmail.com | PASSWORD : Mydemo@123
               <br />
-              ADMIN : admin123@gmail.com | PASSWORD : Admin@123
+              <span style={{ paddingLeft: "150px" }}>
+                ADMIN : admin123@gmail.com | PASSWORD : Admin@123
+              </span>
             </span>
           </h2>
         </div>
