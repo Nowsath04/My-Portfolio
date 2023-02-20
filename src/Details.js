@@ -129,6 +129,16 @@ export const projectDetails = [
     backend: "https://github.com/Nowsath04/ZENCLASS-STUDENT-DASHBOARD-BACKEND",
     DeployUrl: "https://profound-capybara-7abab5.netlify.app",
   },
+  {
+    title: "Pizza Delivery App",
+    image: projectImage3,
+    description: `This is a Full Stack (MERN) Pizza Delivery Application with admin panel developed using React and React for Front End , Redux-Thunk for Asynchronous operations,
+     Node JS for Runtime environment , Express JS for Backend Routing and Mongo DB for Database`,
+    techstack: "MERN",
+    frontend: "https://github.com/Nowsath04/Pizza-Frontend",
+    backend: "https://github.com/Nowsath04/Pizza-Backend",
+    DeployUrl: "https://shimmering-blancmange-07668d.netlify.app/Home",
+  },
 ];
 
 // Enter your Contact Details here
