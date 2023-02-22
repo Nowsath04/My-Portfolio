@@ -14,7 +14,7 @@ function About() {
         </p>
         <a
           className="Nowsath"
-          href="https://drive.google.com/file/d/1hECeZQoWGXBfYab6yuyKsSyBWMufKprL/view"
+          href="https://drive.google.com/file/d/1t2W_yaLBNwWCrz5W8lfKFdhQ2_vU3qD3/view?usp=share_link"
           target="_blank"
         >
           Resume
