@@ -45,7 +45,7 @@ export const socialMediaUrl = {
 export const eduDetails = [
   {
     Position: "Full Stack Web Development",
-    Company: "Guvi Geeks IIT Research Park",
+    Company: "GUVI course in certifications",
     Location: "Chennai",
     Duration: "2022",
   },
