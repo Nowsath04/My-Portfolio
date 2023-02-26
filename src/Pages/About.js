@@ -1,6 +1,6 @@
 import React from "react";
 import Work from "../Components/Work";
-import { personalDetails, eduDetails } from "../Details";
+import { personalDetails, eduDetails, certifications } from "../Details";
 
 function About() {
   return (
@@ -20,6 +20,19 @@ function About() {
           Resume
         </a>
       </section>
+      <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        Certification
+      </h1>
+      {React.Children.toArray(
+        certifications.map(({ Position, Company, Location, Duration }) => (
+          <Work
+            position={Position}
+            company={Company}
+            location={Location}
+            duration={Duration}
+          />
+        ))
+      )}
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Education

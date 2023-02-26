@@ -42,13 +42,16 @@ export const socialMediaUrl = {
   instagram: "https://www.instagram.com/nowsath___nichu____/",
 };
 
-export const eduDetails = [
+export const certifications = [
   {
     Position: "Full Stack Web Development",
     Company: "GUVI course in certifications",
     Location: "Chennai",
     Duration: "2022",
   },
+];
+
+export const eduDetails = [
   {
     Position: "Bachelor Of Computer Application (BCA)",
     Company: `Nehru Arts And Science College`,
